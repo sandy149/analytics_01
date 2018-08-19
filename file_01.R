@@ -1,2 +1,3 @@
 mtcars
-
+plot(women)
+?mean

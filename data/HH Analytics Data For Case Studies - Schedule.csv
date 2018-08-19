@@ -1,0 +1,72 @@
+Ref,Day,Date,Time,Topic,Outcome (Includes Industry Example),Skillset ( with hyperlink Job Profile),Case Ref
+,Start,21 Apr 18,min,,,,
+,,,,,,,
+1A,1,21 Apr 18,20,Introduction - Facutly & Students,Understanding Student Expectations for the Course,,
+,,,,,,,
+1B,,,20,Course Conduct,Course Conduct & Topic Introduction,,
+,,,,,,,
+1C,,,50,Introductory Topics to Analytics,Understanding the need for Analytics in Financial Domain; CRISP Modeling,Analytical Techniques,
+,,,,,,,
+1D,,,50,Introduction to Data Management,"Properties & Types of Data, Measurement Scale, Basic Statistics on Data",,
+,,,,,,,
+1E,,,30,Basic Excel Functions,"Vlookup, Pivot Table, Statistical Functions",Excel Management,Case : Denco
+,,,,,,,
+,,,,,,,
+1F,1,21 Apr 18,30,Basics of R Programming,"Need for R, Features of R, Download, Setup, Installation ; R & R Studio; Configuration. eg. Learning to setup R and share the setup with your colleages",,
+,,,,,,,
+1G,,,30,Project Management in R,Files & Project Management in R ; Git Hub Configuration. eg Managing Files in Internet Domain ; Extracting Data from various sources,Project Management ,
+,,,,,,,
+1H,,,90,Data Structures in R,"Creating and Understanding Basic Data Structures in R - Vector, List, Matrix, Array, Data Frame & Factors which help in creating data in R programming",Data Creation ,
+,,,,,,,
+1I,,,60,Data Manipulation & Summarisation in R,Understanding how data can be summarised in different ways to do Descriptive Analysis which describes features of data,Descriptive Analysis,Case Study : Denco
+,,,,,,,
+1J,,,15,HW Assignment,Assignment for Home : Practise,Financial analysis and Reporting,Case Study : student
+1K,,,10,Summarisation,Summarising Day1's topics,,
+,,,,,,,
+,,,,,,,
+2A,2,22 Apr 18,35,Recap & Discussion of HW Assignment,Finding Insights and carrying out Descriptive Statistics,Insights,
+,,,,,,,
+2B,,,25,Analytical Modeling,Understand what is Modeling and how it can be used in Financial Domain,Financial Modeling,
+,,,,,,,
+2C,,,90,Simple Linear Regression ,Develop a Prediction Model for predicting a financial values based on single Independent Variable; Understand the assumptions and measures of goodness of Model,Predictive Analysis,Case : AreaVsSales
+,,,,,,,
+2D,,,60,Multiple Linear Regression,Develop a Prediction Model for Predicting a Financial Value/ Quantity on more than 1 independent Variables; Understand its prediction ability,Predictive Analysis on various Factors,Case : Qty-Price & Promotion
+,,,,,,,
+,,,,,,,
+2E,2,22 Apr 18,50,Visualisation using Graphs,Creating Graph in R and understanding which graph to be used when,Visualisation ,
+,,,,,,,
+2B,,,90,Logistic Regression,"Predicting Binary Outcome (Buy or not, Churn or not, Loan Default or not) based on Independent Variables eg. Predicting Cases for Fraud, Default on Payment etc",Risk Analytics,Case : Default on Loan
+,,,,,,,
+2D,,,15,HW Assignment,Discussion on Assignment Submission,,Case : Qty-Price & Promotion
+,,,,,,,
+2E,,,30,Missing Value and Outlier Analysis,Understanding how missing values & outliers are handled in data summarisation & modeling,Data Handling ,
+,,,,,,,
+2E,,,30,Summarisation and Discussion,"Practise Exercise, Summarisation and Doubts clearance, Next Days Topics",,
+,,,,,,,
+,,,,,,,
+3A,3,23 Apr 18,90,Decision Tree - CART,Need for Decision Tree Modeling; How to create Classification and Regression Tree ; Interpreting the output; Pruning the tree  based on Complexity Paramter ; Selecting the most important attribute,Decision Tree,Case : SalesVsIVs
+,,,,,,,
+3B,,,25,Decision Tree - CHAID,When to use CHAID to create decision tree based on categorical variables. ,Decision Tree,Case : Built in Dataset
+,,,,,,,
+3C,,,90,Clustering,Grouping Customers based on characteristics so that they can be target for sale increase,Segmentation,Case : AreaVsSales
+,,,,,,,
+,,,,,,,
+,,,,,,,
+3D,3,23 Apr 18,90,Association Rule Analysis,"Understand how Association Rules can be created using Market Basket Analysis. Same concept can be applied to find association between subscription to features of financial institutions. eg  Saving Account, FD, Mutual Fund, Insurance Schemes taken customers",Association Rule Analysis,Case: Groceries
+,,,,,,Market Basket Analysis,
+3E,,,90,Date Functions,Understand how Date Functions are used to understand Time Series data,,Practise/ Lab Work
+,,,,,,,
+3F,,,30,Summarisation and Discussion,"Practise Exercise, Summarisation and Doubts clearance, Next Days Topics",,
+,,,,,,,
+,,,,,,,
+4A,4,24 Apr 18,180,Time Series Analysis,"Create, Analyse, Plot Time Series Data. Carryout  Moving Average, Exponential and ARIMA forecasting to predict Values",Time Series Analysis & Forecasting of Financial Data,Case : Built in Data Sets
+,,,,,Smoothing & Seasonal Decomposition,,Data : AirPassengers
+,,,,,Exponential Forecasting,,Data : Johnsons & Johnsons
+,,,,,ARIMA Forecasting,,Data : Nile
+,,,,,,,
+,,,,,,,
+4B,4,24 Apr 18,90,Twitter Analysis,Configure Twitter Account & Application; Setup for downloading tweets and analyse them for positive and negative sentiments related to Financial News/ Articles,Find Trends/ Views,Case : Online Tweets
+,,,,,,Analysis,
+4C,,,60,Summarisation and Discussion,"Practise Exercise, Summarisation and Doubts clearance, What to do further after this course",,Lab Work
+,,,,,,,
+4D,,,80,"Exam & Group Photo , Feedback",Conduct assessment; Group Photos and Feedback Session,,
