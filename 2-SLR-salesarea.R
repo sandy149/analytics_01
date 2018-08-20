@@ -29,7 +29,7 @@ str(df4)
 
 # Use Vector Data or method used to import data
 #make one of the DF active
-df = df1
+df = df2
 
 #simple stats
 mean(df$X); mean(df$Y)
@@ -41,7 +41,7 @@ cor(df$X,df$Y) ; cor(df$Y,df$X)
 
 #some plots to understand pattern
 plot(df$X, df$Y)  #simple command to plot : Next with features
-plot(y=df$Y, x=df$X,xlab='Area in sqft', ylab='Sales Amount', type='p', ylim=c(0, max(df$Y)), main='Plot of Area Vs Sales', xlim=c(0,max(df$X)), col='red',pch=10)
+splot(y=df$Y, x=df$X,xlab='Area in sqft', ylab='Sales Amount', type='p', ylim=c(0, max(df$Y)), main='Plot of Area Vs Sales', xlim=c(0,max(df$X)), col='red',pch=10)
 
 abline(lm(df$Y ~ df$X), lty=3, lwd=4, col='green') # with regression line
 abline(v=c(3,5),h=c(6,10), col=c('red','blue')) # few straight lines at x & y axis
@@ -103,7 +103,12 @@ summary(fit1)$sigma  #Residual Std Error SD along the LM Line
 
 #---------------------------------------#Assumptions--------
 #Assumption : Graphical Analysis : IMP STEP
+plot(fit1)
+par(mfrow = c(2,2))
+
+plot(fit1)
 plot(fit1, which=1)
+#plot(fit1) 4 plots
 
 # Linearity plot of residuals & X # No pattern for assumption that there is linearity betw X & Y
 
@@ -139,6 +144,12 @@ summary(fit1)
 #F Stats pvalue < 0.05: Model exists : At least 1 indep variable has strong relationship with Dependent variable (Y)
 #pvalue of Coef (X) < 0.05 : Significant X
 
+
+df
+fit <- lm(Y ~X, data = df)
+summary(fit)
+plot(fit)
+predict(fit, newdata = data.frame(X=c(mean(df$X))))
 
 #End of Simple Linear Regression
 #Do different SLR on different data sets
